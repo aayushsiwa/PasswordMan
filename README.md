@@ -1,0 +1,1 @@
+This is a Password Manager that stores all the data locally on your device but in an encrypted form.
