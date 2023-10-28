@@ -1,0 +1,18 @@
+import os.path as o
+import os as os 
+path = os.getcwd()
+print(path)
+print(o)
+# img_alt='aayush'
+# filename = img_alt + '.jpg'
+# with open(os.path.join(path, filename), 'wb') as temp_file:
+#     print(path)
+#     temp_file.write()
+
+def verify_username(user_name):
+    if not o.isfile(f'{user_name}_status.txt'):
+        f=open(f'{user_name}_status.txt','w')
+        f.close()
+        print("done")
+
+verify_username('2')
